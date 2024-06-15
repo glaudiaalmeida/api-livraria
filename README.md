@@ -1,2 +1,2 @@
-# api-livraria
-continuação do curso Node.js -agora abordando filtros, paginação, buscas e erros
+# 2404-api-node-express
+Projeto utilizado no curso da Alura
