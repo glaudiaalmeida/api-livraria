@@ -1,6 +1,7 @@
+import "dotenv/config"
 import mongoose from "mongoose"
 
-mongoose.connect("mongodb+srv://admin:admin123@cluster0.jgqvbyy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect(process.env.STRING_CONEXAO_DB);
 
 let db = mongoose.connection;
 
